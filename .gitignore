@@ -1,0 +1,28 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data and historical notebooks stay outside the published code.
+/datasets/
+/deepfake_dataset_1/
+/deepfake_dataset_2/
+/notebooks/
+*.ipynb
+
+# Generated outputs and model files.
+/results/
+/figures/
+/outputs/
+/logs/
+/checkpoints/
+*.keras
+*.h5
+*.hdf5
+*.ckpt*
+*.tfevents.*

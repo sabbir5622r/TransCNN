@@ -1,0 +1,37 @@
+# Adapted settings: all models use 224x224 inputs and training augmentation.
+image_size: [224, 224, 3]
+epochs: 50
+learning_rate: 0.0001
+
+datasets:
+  deepfake_dataset_1: datasets/deepfake_dataset_1
+  deepfake_dataset_2: datasets/deepfake_dataset_2
+
+augmentation:
+  brightness_range: [0.8, 1.2]
+  zoom_range: 0.1
+  width_shift_range: 0.1
+  height_shift_range: 0.1
+  horizontal_flip: true
+
+models:
+  cnn:
+    batch_size: 16
+    early_stopping_patience: 45
+    lr_factor: 0.3
+    lr_patience: 5
+  cnn_cbam:
+    batch_size: 16
+    early_stopping_patience: 25
+    lr_factor: 0.5
+    lr_patience: 18
+  cnn_transformer:
+    batch_size: 8
+    early_stopping_patience: 45
+    lr_factor: 0.3
+    lr_patience: 5
+  cnn_cbam_transformer:
+    batch_size: 4
+    early_stopping_patience: 45
+    lr_factor: 0.3
+    lr_patience: 5

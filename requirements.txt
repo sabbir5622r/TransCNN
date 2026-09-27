@@ -1,0 +1,10 @@
+# Historical package versions were not recorded in the notebooks.
+tensorflow
+numpy
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+PyYAML
+Pillow
+scipy
