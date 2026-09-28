@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔍 TransCNN
+# 🔍 A Spatial-Channel Attention Guided Vision Hybrid Approach for Robust Deepfake Forensics
 
 ### CNN and Attention-Based Architectures for Deepfake Image Classification
 
@@ -331,7 +331,6 @@ The published configuration intentionally standardizes two settings at the autho
 
 These adaptations must not be presented as the exact configuration that generated all historical results. No original CNN + Transformer Dataset 2 notebook was supplied; launcher support for that combination does not establish a historical run.
 
-Further source mappings, retained implementation quirks, and organizational changes are recorded in [docs/provenance.md](docs/provenance.md).
 
 ---
 
@@ -344,11 +343,31 @@ The original Kaggle research experiments are complete. This repository provides 
 A software license has not yet been selected. No open-source license is asserted in this release.
 
 ---
+## 📄 Related Publication and Bibtex
+
+A shorter conference version of this research was published at ICCIT 2025. This repository includes additional model variants beyond that conference version.
+
+If you use this work, please cite:
+
+```bibtex
+@inproceedings{Hossen2025TransCNN,
+  title={TransCNN: A Hybrid CNN--Transformer Synergy for Reliable Deepfake Forensics},
+  author={Hossen, Md. Sabbir and Saiduzzaman, Md.},
+  booktitle={2025 28th International Conference on Computer and Information Technology (ICCIT)},
+  year={2025},
+  address={Cox's Bazar, Bangladesh},
+  organization={IEEE}
+}
+```
+
+
+
+---
 
 ## 👤 Author
 
 **Md Sabbir Hossen**  
-Research Assistan
+Research Assistant
 
 Research interests include Natural Language Processing, Computer Vision, Large Language Models, Vision-Language Models, and Efficient AI.
 
